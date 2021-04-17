@@ -143,10 +143,11 @@ function EWO_Main()
 {
 	var EWO_HTML = "";
 
-	EWO_HTML+= "3:55 PM";
-	EWO_HTML+= "<br>";
-	EWO_HTML+= "<br>";
-	EWO_HTML+= EWO_Hay_Day_Helper_Data;
+	for (var EWO_For_Counter_One = 0; EWO_For_Counter_One < EWO_Hay_Day_Helper_Data.length; EWO_For_Counter_One++)
+	{
+		EWO_HTML+= EWO_Hay_Day_Helper_Data[EWO_For_Counter_One];
+		EWO_HTML+= "<br>";
+	}
 
 	document.body.innerHTML = EWO_HTML;
 }
