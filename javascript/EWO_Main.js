@@ -1,15 +1,45 @@
 "use strict";
 
-EWO_Hay_Day_Helper_Data = 
+EWO_Hay_Day_Helper_Data =
 {
-	"Bread":
+	Bread:
 	{
-		"Wheat": 3
+		"Production Building": Bakery,
+		Wheat: 3,
 	},
 	"Corn Bread":
 	{
-		"Corn": 2,
-		"Egg": 2
+		"Production Building": Bakery,
+		Corn: 2,
+		Egg: 2,
+	},
+	Cookie:
+	{
+		"Production Building": Bakery,
+	},
+	"Raspberry Muffin":
+	{
+		"Production Building": Bakery,
+	},
+	"Blackberry Muffin":
+	{
+		"Production Building": Bakery,
+	},
+	Pizza:
+	{
+		"Production Building": Bakery,
+	},
+	"Spicy Pizza":
+	{
+		"Production Building": Bakery,
+	},
+	"Potato Bread":
+	{
+		"Production Building": Bakery,
+	},
+	"Frutti di Mare Pizza":
+	{
+		"Production Building": Bakery,
 	},
 };
 
