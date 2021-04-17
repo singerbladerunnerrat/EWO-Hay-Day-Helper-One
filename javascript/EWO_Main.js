@@ -145,6 +145,7 @@ function EWO_Main()
 
 	for (var EWO_For_Counter_One = 0; EWO_For_Counter_One < EWO_Hay_Day_Helper_Data.length; EWO_For_Counter_One++)
 	{
+		EWO_HTML+= typeof EWO_Hay_Day_Helper_Data[EWO_For_Counter_One];
 		EWO_HTML+= EWO_Hay_Day_Helper_Data[EWO_For_Counter_One];
 		EWO_HTML+= "<br>";
 	}
