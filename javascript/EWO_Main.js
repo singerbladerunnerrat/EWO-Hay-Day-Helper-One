@@ -1,6 +1,6 @@
 "use strict";
 
-EWO_Hay_Day_Helper_Data =
+var EWO_Hay_Day_Helper_Data =
 {
 	"Bread":
 	{
