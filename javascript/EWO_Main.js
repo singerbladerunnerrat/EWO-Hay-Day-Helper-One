@@ -141,11 +141,6 @@ var EWO_Hay_Day_Helper_Data =
 
 function EWO_Main()
 {
-	EWO_Data =
-	{
-
-	};
-
 	var EWO_HTML = "";
 
 	EWO_HTML+= "3:55 PM";
