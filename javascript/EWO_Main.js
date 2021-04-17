@@ -149,6 +149,7 @@ function EWO_Main()
 		EWO_HTML+= EWO_Hay_Day_Helper_Data[EWO_For_Counter_One];
 		EWO_HTML+= "<br>";
 	}
-
+	
+	console.log(EWO_HTML);
 	document.body.innerHTML = EWO_HTML;
 }
