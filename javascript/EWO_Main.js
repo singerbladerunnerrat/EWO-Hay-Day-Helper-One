@@ -22,7 +22,8 @@ function EWO_Main()
 
 	var EWO_HTML = "";
 
-	EWO_HTML+= "This is a test.";
+	EWO_HTML+= "3:55 PM";
+	EWO_HTML+= "<br>";
 	EWO_HTML+= "<br>";
 	EWO_HTML+= EWO_Hay_Day_Helper_Data;
 
