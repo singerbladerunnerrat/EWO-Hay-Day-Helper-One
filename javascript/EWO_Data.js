@@ -444,6 +444,7 @@ var EWO_Hay_Day_Helper_Data =
 	"Raspberry Jam":
 	{
 		"Production Building": "Jam Maker",
+		"Raspberries": 3,
 	},
 	"Blackberry Jam":
 	{
@@ -586,4 +587,3 @@ var EWO_Hay_Day_Helper_Data =
 		"Olives": 2,
 	},
 };
-
