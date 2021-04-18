@@ -169,13 +169,93 @@ var EWO_Hay_Day_Helper_Data =
 	{
 		"Production Building": "Cake Oven",
 	},
+	"Cream Cake":
+	{
+		"Production Building": "Cake Oven",
+	},
+	"Red Berry Cake":
+	{
+		"Production Building": "Cake Oven",
+	},
+	"Cheesecake":
+	{
+		"Production Building": "Cake Oven",
+	},
+	"Strawberry Cake":
+	{
+		"Production Building": "Cake Oven",
+	},
+	"Chocolate Cake":
+	{
+		"Production Building": "Cake Oven",
+	},
+	"Potato Feta Cake":
+	{
+		"Production Building": "Cake Oven",
+	},
+	"Honey Apple Cake":
+	{
+		"Production Building": "Cake Oven",
+	},
+	"Fancy Cake":
+	{
+		"Production Building": "Cake Oven",
+	},
 	"Silver Bar":
 	{
 		"Production Building": "Smelter",
+		"Silver Ore": 3,
+	},
+	"Gold Bar":
+	{
+		"Production Building": "Smelter",
+		"Gold Ore": 3,
+	},
+	"Platinum Bar":
+	{
+		"Production Building": "Smelter",
+		"Platinum Ore": 3,
+	},
+	"Refined Coal":
+	{
+		"Production Building": "Smelter",
+		"Coal": 3,
+	},
+	"Iron Bar":
+	{
+		"Production Building": "Smelter",
+		"Iron Ore": 3,
 	},
 	"Carrot Juice":
 	{
 		"Production Building": "Juice Press",
+		"Carrot": 3,
+	},
+	"Apple Juice":
+	{
+		"Production Building": "Juice Press",
+		"Apples": 2,
+	},
+	"Cherry Juice":
+	{
+		"Production Building": "Juice Press",
+		"Cherries": 2,
+	},
+	"Tomato Juice":
+	{
+		"Production Building": "Juice Press",
+		"Tomato": 3,
+	},
+	"Berry Juice":
+	{
+		"Production Building": "Juice Press",
+		"Raspberries": 1,
+		"Blackberries": 1,
+	},
+	"Pineapple Juice":
+	{
+		"Production Building": "Juice Press",
+		"Pineapple": 3,
 	},
 	"Vanilla Ice Cream":
 	{
