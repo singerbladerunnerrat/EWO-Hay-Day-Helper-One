@@ -26,6 +26,11 @@ function EWO_Main()
 		{
 			if ((typeof EWO_Hay_Day_Helper_Data[EWO_Property_One][EWO_Property_Two]) === "number")
 			{
+				if (EWO_Object[EWO_Property_Two] === undefined)
+				{
+					EWO_Object[EWO_Property_Two] = 0;
+				}
+
 				EWO_Object[EWO_Property_Two]+= EWO_Hay_Day_Helper_Data[EWO_Property_One][EWO_Property_Two];
 			}
 		}
