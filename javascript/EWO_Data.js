@@ -168,14 +168,20 @@ var EWO_Hay_Day_Helper_Data =
 	"Pancake":
 	{
 		"Production Building": "BBQ Grill",
+		"Egg": 3,
+		"Brown Sugar": 1,
 	},
 	"Bacon and Eggs":
 	{
 		"Production Building": "BBQ Grill",
+		"Egg": 4,
+		"Bacon": 2,
 	},
 	"Hamburger":
 	{
 		"Production Building": "BBQ Grill",
+		"Bread": 2,
+		"Bacon": 2,
 	},
 	"Fish burger":
 	{
@@ -187,18 +193,28 @@ var EWO_Hay_Day_Helper_Data =
 	"Roasted Tomatoes":
 	{
 		"Production Building": "BBQ Grill",
+		"Tomato": 2,
 	},
 	"Baked Potato":
 	{
 		"Production Building": "BBQ Grill",
+		"Potato": 2,
+		"Chili Pepper": 1,
+		"Cream": 1,
+		"Cheese": 1,
 	},
 	"Fish and Chips":
 	{
 		"Production Building": "BBQ Grill",
+		"Fish fillet": 2,
+		"Potato": 3,
 	},
 	"Lobster Skewer":
 	{
 		"Production Building": "BBQ Grill",
+		"Lobster tail": 1,
+		"Chili Pepper": 1,
+		"Honey": 1,
 	},
 	"Garlic bread":
 	{
@@ -210,30 +226,53 @@ var EWO_Hay_Day_Helper_Data =
 	"Carrot Pie":
 	{
 		"Production Building": "Pie Oven",
+		"Carrot": 3,
+		"Egg": 1,
+		"Wheat": 2,
 	},
 	"Pumpkin Pie":
 	{
 		"Production Building": "Pie Oven",
+		"Pumpkin": 3,
+		"Egg": 1,
+		"Wheat": 2,
 	},
 	"Bacon Pie":
 	{
 		"Production Building": "Pie Oven",
+		"Bacon": 3,
+		"Egg": 1,
+		"Wheat": 2,
 	},
 	"Apple Pie":
 	{
 		"Production Building": "Pie Oven",
+		"Apples": 3,
+		"Egg": 1,
+		"Wheat": 2,
+		"Syrup": 1,
 	},
 	"Fish pie":
 	{
 		"Production Building": "Pie Oven",
+		"Fish fillet": 3,
+		"Egg": 1,
+		"Wheat": 2,
 	},
 	"Feta Pie":
 	{
 		"Production Building": "Pie Oven",
+		"Goat Cheese": 1,
+		"Egg": 1,
+		"Wheat": 2,
 	},
 	"Casserole":
 	{
 		"Production Building": "Pie Oven",
+		"Potato": 2,
+		"Bacon": 2,
+		"Cheese": 1,
+		"Egg": 2,
 	},
 	"Shepherds Pie":
 	{
@@ -305,6 +344,9 @@ var EWO_Hay_Day_Helper_Data =
 	"Carrot Cake":
 	{
 		"Production Building": "Cake Oven",
+		"Carrot": 2,
+		"Brown Sugar": 1,
+		"Butter": 1,
 	},
 	"Cream Cake":
 	{
@@ -316,26 +358,46 @@ var EWO_Hay_Day_Helper_Data =
 	"Red Berry Cake":
 	{
 		"Production Building": "Cake Oven",
+		"Raspberries": 1,
+		"Milk": 1,
+		"Cherries": 2,
+		"Egg": 1,
 	},
 	"Cheesecake":
 	{
 		"Production Building": "Cake Oven",
+		"Cookie": 1,
+		"Cheese": 1,
 	},
 	"Strawberry Cake":
 	{
 		"Production Building": "Cake Oven",
+		"Wheat": 3,
+		"White Sugar": 1,
+		"Cream": 1,
+		"Strawberries": 2,
 	},
 	"Chocolate Cake":
 	{
 		"Production Building": "Cake Oven",
+		"Butter": 1,
+		"Cacaos": 2,
+		"Brown Sugar": 1,
 	},
 	"Potato Feta Cake":
 	{
 		"Production Building": "Cake Oven",
+		"Potato": 1,
+		"Egg": 4,
+		"Goat Cheese": 1,
 	},
 	"Honey Apple Cake":
 	{
 		"Production Building": "Cake Oven",
+		"Wheat": 2,
+		"Apples": 2,
+		"Egg": 2,
+		"Honey": 2,
 	},
 	"Fancy cake":
 	{
@@ -396,7 +458,7 @@ var EWO_Hay_Day_Helper_Data =
 		"Raspberries": 1,
 		"Blackberries": 1,
 	},
-	"Pineapple Juice":
+	"Pineapple juice":
 	{
 		"Production Building": "Juice Press",
 		"Pineapple": 3,
@@ -440,6 +502,7 @@ var EWO_Hay_Day_Helper_Data =
 	"Apple Jam":
 	{
 		"Production Building": "Jam Maker",
+		"Apples": 3,
 	},
 	"Raspberry Jam":
 	{
@@ -449,10 +512,12 @@ var EWO_Hay_Day_Helper_Data =
 	"Blackberry Jam":
 	{
 		"Production Building": "Jam Maker",
+		"Blackberries": 3,
 	},
 	"Cherry Jam":
 	{
 		"Production Building": "Jam Maker",
+		"Cherries": 3,
 	},
 	"Strawberry Jam":
 	{
@@ -462,18 +527,29 @@ var EWO_Hay_Day_Helper_Data =
 	"Bracelet":
 	{
 		"Production Building": "Jeweler",
+		"Silver Bar": 2,
+		"Gold Bar": 1,
 	},
 	"Necklace":
 	{
 		"Production Building": "Jeweler",
+		"Silver Bar": 2,
+		"Platinum Bar": 1,
+		"Gold Bar": 1,
 	},
 	"Diamond Ring":
 	{
 		"Production Building": "Jeweler",
+		"Gold Bar": 2,
+		"Diamonds": 1,
+		"Platinum Bar": 2,
 	},
 	"Iron Bracelet":
 	{
 		"Production Building": "Jeweler",
+		"Iron Bar": 2,
+		"Silver Bar": 1,
+		"Refined Coal": 2,
 	},
 	"Honey":
 	{
@@ -488,70 +564,123 @@ var EWO_Hay_Day_Helper_Data =
 	"Espresso":
 	{
 		"Production Building": "Coffee Kiosk",
+		"Coffee Beans": 3,
+		"White Sugar": 1,
 	},
 	"Caffè Latte":
 	{
 		"Production Building": "Coffee Kiosk",
+		"Coffee Beans": 2,
+		"White Sugar": 1,
+		"Milk": 1,
 	},
 	"Caffè Mocha":
 	{
 		"Production Building": "Coffee Kiosk",
+		"Coffee Beans": 1,
+		"Cream": 1,
+		"Cacaos": 2,
 	},
 	"Raspberry Mocha":
 	{
 		"Production Building": "Coffee Kiosk",
+		"Coffee Beans": 1,
+		"Cream": 1,
+		"Cacaos": 1,
+		"Raspberries": 1,
 	},
 	"Hot Chocolate":
 	{
 		"Production Building": "Coffee Kiosk",
+		"Cacaos": 2,
+		"Cream": 1,
+		"Milk": 1,
+		"White Sugar": 1,
 	},
 	"Lobster Soup":
 	{
 		"Production Building": "Soup Kitchen",
+		"Lobster tail": 2,
+		"Tomato": 1,
+		"Cream": 1,
+		"Chili Pepper": 2,
 	},
 	"Tomato Soup":
 	{
 		"Production Building": "Soup Kitchen",
+		"Tomato": 2,
+		"Chili Pepper": 1,
+		"Tomato Juice": 1,
+		"Goat Cheese": 1,
 	},
 	"Pumpkin Soup":
 	{
 		"Production Building": "Soup Kitchen",
+		"Pumpkin": 3,
+		"Butter": 1,
+		"Carrot": 2,
+		"Honey": 1,
 	},
 	"Fish Soup":
 	{
 		"Production Building": "Soup Kitchen",
+		"Potato": 3,
+		"Fish fillet": 2,
+		"Milk": 1,
+		"Carrot": 1,
 	},
 	"Strawberry Candle":
 	{
 		"Production Building": "Candle Maker",
+		"Beeswax": 1,
+		"Strawberries": 2,
 	},
 	"Raspberry Candle":
 	{
 		"Production Building": "Candle Maker",
+		"Beeswax": 1,
+		"Raspberries": 2,
 	},
 	"Rustic Bouquet":
 	{
 		"Production Building": "Flower Shop",
+		"Indigo": 3,
+		"Cotton": 3,
+		"Wheat": 5,
 	},
 	"Caramel Apple":
 	{
 		"Production Building": "Candy Machine",
+		"Apples": 1,
+		"Syrup": 2,
 	},
 	"Toffee":
 	{
 		"Production Building": "Candy Machine",
+		"Butter": 1,
+		"Wheat": 1,
+		"White Sugar": 1,
 	},
 	"Chocolate":
 	{
 		"Production Building": "Candy Machine",
+		"Cacaos": 3,
+		"Cream": 1,
+		"White Sugar": 1,
 	},
 	"Lollipop":
 	{
 		"Production Building": "Candy Machine",
+		"Syrup": 1,
+		"Strawberries": 2,
+		"Cherries": 1,
 	},
 	"Jelly Beans":
 	{
 		"Production Building": "Candy Machine",
+		"Raspberry Jam": 1,
+		"Blackberry Jam": 1,
+		"White Sugar": 1,
 	},
 	"Soy Sauce":
 	{
@@ -568,22 +697,23 @@ var EWO_Hay_Day_Helper_Data =
 	{
 		"Production Building": "Sushi Bar",
 		"Rice": 15,
-		"Fish fillet": 1,
 		"Soy Sauce": 1,
+		"Fish fillet": 1,
 	},
 	"Lobster Sushi":
 	{
 		"Production Building": "Sushi Bar",
 		"Rice": 15,
-		"Lobster tail": 1,
 		"Soy Sauce": 1,
+		"Lobster tail": 1,
 	},
 	"Feta Salad":
 	{
 		"Production Building": "Salad Bar",
 		"Lettuce": 3,
-		"Tomato": 1,
 		"Goat Cheese": 2,
+		"Roasted Tomatoes": 1,
 		"Olives": 2,
 	},
 };
+
