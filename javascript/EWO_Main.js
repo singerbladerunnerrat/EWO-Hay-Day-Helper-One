@@ -145,9 +145,9 @@ function EWO_Main()
 
 	console.log(EWO_Hay_Day_Helper_Data);
 
-	for (var EWO_For_Counter_One = 0; EWO_For_Counter_One < EWO_Hay_Day_Helper_Data.length; EWO_For_Counter_One++)
+	for (const EWO_Property in EWO_Hay_Day_Helper_Data)
 	{
-		EWO_HTML+= EWO_Hay_Day_Helper_Data[EWO_For_Counter_One]["Corn"];
+		EWO_HTML+= EWO_Property;
 		EWO_HTML+= "<br>";
 	}
 
