@@ -145,10 +145,15 @@ function EWO_Main()
 
 	console.log(EWO_Hay_Day_Helper_Data);
 
-	for (const EWO_Property in EWO_Hay_Day_Helper_Data)
+	for (const EWO_Property_One in EWO_Hay_Day_Helper_Data)
 	{
-		EWO_HTML+= EWO_Property;
-		EWO_HTML+= "<br>";
+		for (const EWO_Property_Two in EWO_Hay_Day_Helper_Data[EWO_Property_One])
+		{
+			EWO_HTML+= EWO_Property_One;
+			EWO_HTML+= "&nbsp;";
+			EWO_HTML+= EWO_Property_Two;
+			EWO_HTML+= "<br>";
+		}
 	}
 
 	//console.log(EWO_HTML);
