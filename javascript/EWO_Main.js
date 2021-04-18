@@ -151,9 +151,9 @@ function EWO_Main()
 
 		for (const EWO_Property_Two in EWO_Hay_Day_Helper_Data[EWO_Property_One])
 		{
-			EWO_HTML+= EWO_Property_Two.name;
+			EWO_HTML+= EWO_Property_Two[0];
 			EWO_HTML+= "&nbsp;";
-			EWO_HTML+= EWO_Property_Two.value;
+			EWO_HTML+= EWO_Property_Two[1];
 			EWO_HTML+= "<br>";
 		}
 	}
