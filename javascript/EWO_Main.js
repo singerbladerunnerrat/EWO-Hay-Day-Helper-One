@@ -154,6 +154,8 @@ function EWO_Main()
 			EWO_HTML+= EWO_Property_Two;
 			EWO_HTML+= "&nbsp;";
 			EWO_HTML+= EWO_Hay_Day_Helper_Data[EWO_Property_Two];
+			EWO_HTML+= "&nbsp;";
+			EWO_HTML+= typeof EWO_Hay_Day_Helper_Data[EWO_Property_Two];
 			EWO_HTML+= "<br>";
 		}
 	}
