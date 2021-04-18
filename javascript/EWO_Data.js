@@ -67,6 +67,41 @@ var EWO_Hay_Day_Helper_Data =
 	{
 		"Production Building": "BBQ Grill",
 	},
+	"Bacon and Eggs":
+	{
+		"Production Building": "BBQ Grill",
+	},
+	"Hamburger":
+	{
+		"Production Building": "BBQ Grill",
+	},
+	"Fish Burger":
+	{
+		"Production Building": "BBQ Grill",
+		"Fish Fillet": 2,
+		"Chili Pepper": 1,
+		"Bread": 2,
+	},
+	"Roasted Tomatoes":
+	{
+		"Production Building": "BBQ Grill",
+	},
+	"Baked Potato":
+	{
+		"Production Building": "BBQ Grill",
+	},
+	"Fish and Chips":
+	{
+		"Production Building": "BBQ Grill",
+	},
+	"Lobster Skewer":
+	{
+		"Production Building": "BBQ Grill",
+	},
+	"Garlic Bread":
+	{
+		"Production Building": "BBQ Grill",
+	},
 	"Carrot Pie":
 	{
 		"Production Building": "Pie Oven",
@@ -106,13 +141,16 @@ var EWO_Hay_Day_Helper_Data =
 	},
 	"Wooly Chaps":
 	{
+		"Production Building": "Sewing Machine",
 		"Cotton Fabric": 1,
 		"Wool": 3,
-		"Production Building": "Sewing Machine",
 	},
 	"Violet Dress":
 	{
 		"Production Building": "Sewing Machine",
+		"Cotton Fabric": 2,
+		"Raspberries": 1,
+		"Indigo": 1,
 	},
 	"Pillow":
 	{
@@ -181,10 +219,27 @@ var EWO_Hay_Day_Helper_Data =
 	"Soy Sauce":
 	{
 		"Production Building": "Sauce Maker",
+		"Soybean": 9,
+		"Wheat": 1,
+	},
+	"Olive Oil":
+	{
+		"Production Building": "Sauce Maker",
+		"Olives": 3,
 	},
 	"Sushi Roll":
 	{
 		"Production Building": "Sushi Bar",
+		"Rice": 15,
+		"Fish Fillet": 1,
+		"Soy Sauce": 1,
+	},
+	"Lobster Sushi":
+	{
+		"Production Building": "Sushi Bar",
+		"Rice": 15,
+		"Lobster Tail": 1,
+		"Soy Sauce": 1,
 	},
 	"Feta Salad":
 	{
