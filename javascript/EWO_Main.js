@@ -37,8 +37,6 @@ function EWO_Main()
 		}
 	}
 
-	EWO_HTML_One+= "<br>";
-
 	var EWO_Array_One = [];
 	var EWO_Counter_One = 0;
 
