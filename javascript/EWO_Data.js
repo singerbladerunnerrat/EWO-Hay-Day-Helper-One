@@ -16,10 +16,16 @@ var EWO_Hay_Day_Helper_Data =
 	"Cookie":
 	{
 		"Production Building": "Bakery",
+		"Wheat": 2,
+		"Egg": 2,
+		"Brown Sugar": 1,
 	},
 	"Raspberry Muffin":
 	{
 		"Production Building": "Bakery",
+		"Raspberries": 2,
+		"Egg": 1,
+		"Wheat": 2,
 	},
 	"Blackberry Muffin":
 	{
@@ -68,6 +74,30 @@ var EWO_Hay_Day_Helper_Data =
 	"Sweater":
 	{
 		"Production Building": "Loom",
+		"Wool": 2,
+	},
+	"Cotton Fabric":
+	{
+		"Production Building": "Loom",
+		"Cotton": 3,
+	},
+	"Blue Woolly Hat":
+	{
+		"Production Building": "Loom",
+		"Wool": 1,
+		"Indigo": 1,
+	},
+	"Blue Sweater":
+	{
+		"Production Building": "Loom",
+		"Wool": 2,
+		"Indigo": 2,
+	},
+	"Red Scarf":
+	{
+		"Production Building": "Loom",
+		"Wool": 2,
+		"Strawberries": 2,
 	},
 	"Cotton Shirt":
 	{
@@ -112,6 +142,9 @@ var EWO_Hay_Day_Helper_Data =
 	"Vanilla Ice Cream":
 	{
 		"Production Building": "Ice Cream Maker",
+		"Cream": 1,
+		"White Sugar": 1,
+		"Milk": 1,
 	},
 	"Apple Jam":
 	{
