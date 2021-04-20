@@ -72,7 +72,7 @@ function EWO_Main()
 		EWO_HTML_One+= EWO_Property_One;
 		EWO_HTML_One+= "</span></td>";
 
-		EWO_HTML_One+= "<td><span style='margin-left:2em'>";
+		EWO_HTML_One+= "<td><span style='margin-left:2em' style='text-align:right'>";
 		EWO_HTML_One+= EWO_Object_Two[EWO_Property_One];
 		EWO_HTML_One+= "</span></td>";
 
