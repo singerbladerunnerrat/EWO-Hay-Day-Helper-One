@@ -53,8 +53,6 @@ function EWO_Main()
 
 	EWO_Counter_One = 0;
 
-	EWO_HTML_One+= "<hr>";
-
 	EWO_HTML_One+= "<table>";
 	EWO_HTML_One+= "<tbody>";
 
