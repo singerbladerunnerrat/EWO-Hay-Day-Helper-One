@@ -78,7 +78,7 @@ function EWO_Main()
 
 		EWO_Counter_One++;
 
-		if (EWO_Counter_One === 4)
+		if (EWO_Counter_One === 3)
 		{
 			EWO_HTML_One+= "</tr>";
 
