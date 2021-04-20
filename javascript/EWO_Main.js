@@ -58,7 +58,7 @@ function EWO_Main()
 
 	EWO_Counter_One = 0;
 
-	EWO_HTML_One+= "<table border='1'>";
+	EWO_HTML_One+= "<table>";
 	EWO_HTML_One+= "<tbody>";
 
 	for (const EWO_Property_One in EWO_Object_Two)
