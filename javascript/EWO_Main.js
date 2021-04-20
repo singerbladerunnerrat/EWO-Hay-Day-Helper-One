@@ -56,13 +56,38 @@ function EWO_Main()
 		EWO_Object_Two[EWO_Array_One[EWO_For_Counter_One]] = EWO_Object_One[EWO_Array_One[EWO_For_Counter_One]];
 	}
 
+	EWO_Counter_One = 0;
+
+	EWO_HTML_One+= "<table border='1'>";
+	EWO_HTML_One+= "<tbody>";
+
 	for (const EWO_Property_One in EWO_Object_Two)
 	{
+		if (EWO_Counter_One === 6)
+		{
+			EWO_HTML_One+= "<tr>";
+		}
+
+		EWO_HTML_One+= "<td>";
 		EWO_HTML_One+= EWO_Property_One;
-		EWO_HTML_One+= " ";
+		EWO_HTML_One+= "</td>";
+
+		EWO_HTML_One+= "<td>";
 		EWO_HTML_One+= EWO_Object_Two[EWO_Property_One];
-		EWO_HTML_One+= "<br>";
+		EWO_HTML_One+= "</td>";
+
+		EWO_Counter_One++;
+
+		if (EWO_Counter_One === 5)
+		{
+			EWO_HTML_One+= "</tr>";
+
+			EWO_Counter_One = 0;
+		}
 	}
+
+	EWO_HTML_One+= "</tbody>";
+	EWO_HTML_One+= "</table>";
 
 	document.body.innerHTML = EWO_HTML_One;
 }
