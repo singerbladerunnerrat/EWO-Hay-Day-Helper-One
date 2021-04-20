@@ -4,19 +4,14 @@ function EWO_Main()
 {
 	var EWO_HTML_One = "";
 
-	EWO_HTML_One+= "Grocery Store";
-	EWO_HTML_One+= "<br>";
-	EWO_HTML_One+= "Cinema";
-	EWO_HTML_One+= "<br>";
-	EWO_HTML_One+= "Diner";
-	EWO_HTML_One+= "<br>";
-	EWO_HTML_One+= "Bed and Breakfast";
-	EWO_HTML_One+= "<br>";
-	EWO_HTML_One+= "Spa";
-	EWO_HTML_One+= "<br>";
-	EWO_HTML_One+= "Gift Shop";
-	EWO_HTML_One+= "<br>";
-	EWO_HTML_One+= "<br>";
+	EWO_HTML_One+= "Grocery Store<br>";
+	EWO_HTML_One+= "Cinema<br>";
+	EWO_HTML_One+= "Diner<br>";
+	EWO_HTML_One+= "Bed and Breakfast<br>";
+	EWO_HTML_One+= "Spa<br>";
+	EWO_HTML_One+= "Gift Shop<br>";
+
+	EWO_HTML_One+= "<hr>";
 
 	var EWO_Object_One = {};
 
@@ -58,6 +53,8 @@ function EWO_Main()
 
 	EWO_Counter_One = 0;
 
+	EWO_HTML_One+= "<hr>";
+
 	EWO_HTML_One+= "<table>";
 	EWO_HTML_One+= "<tbody>";
 
@@ -88,6 +85,8 @@ function EWO_Main()
 
 	EWO_HTML_One+= "</tbody>";
 	EWO_HTML_One+= "</table>";
+
+	EWO_HTML_One+= "<hr>";
 
 	document.body.innerHTML = EWO_HTML_One;
 }
