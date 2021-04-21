@@ -81,7 +81,7 @@ function EWO_Main()
 		}
 	}
 
-	EWO_HTML_One+= "</tbody>";
+		EWO_HTML_One+= "</tbody>";
 	EWO_HTML_One+= "</table>";
 
 	EWO_HTML_One+= "<hr>";
@@ -181,6 +181,8 @@ function EWO_Main()
 			EWO_HTML_One+= "</tr>";
 		EWO_HTML_One+= "</tbody>";
 	EWO_HTML_One+= "</table>";
+
+	EWO_HTML_One+= "<hr>";
 
 	document.body.innerHTML = EWO_HTML_One;
 }
