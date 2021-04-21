@@ -86,5 +86,40 @@ function EWO_Main()
 
 	EWO_HTML_One+= "<hr>";
 
+	EWO_HTML_One+= "<table>";
+		EWO_HTML_One+= "<tbody>";
+			EWO_HTML_One+= "<tr>";
+				EWO_HTML_One+= "<td>Wheat</td>";
+				EWO_HTML_One+= "<td>";
+					EWO_HTML_One+= EWO_Object_Two["Wheat"];
+				EWO_HTML_One+= "</td>";
+			EWO_HTML_One+= "</tr>";
+			EWO_HTML_One+= "<tr>";
+				EWO_HTML_One+= "<td>Corn</td>";
+				EWO_HTML_One+= "<td>";
+					EWO_HTML_One+= EWO_Object_Two["Corn"];
+				EWO_HTML_One+= "</td>";
+			EWO_HTML_One+= "</tr>";
+			EWO_HTML_One+= "<tr>";
+				EWO_HTML_One+= "<td>Soybean</td>";
+				EWO_HTML_One+= "<td>";
+					EWO_HTML_One+= EWO_Object_Two["Soybean"];
+				EWO_HTML_One+= "</td>";
+			EWO_HTML_One+= "</tr>";
+			EWO_HTML_One+= "<tr>";
+				EWO_HTML_One+= "<td>Sugarcane</td>";
+				EWO_HTML_One+= "<td>";
+					EWO_HTML_One+= EWO_Object_Two["Sugarcane"];
+				EWO_HTML_One+= "</td>";
+			EWO_HTML_One+= "</tr>";
+			EWO_HTML_One+= "<tr>";
+				EWO_HTML_One+= "<td>Carrot</td>";
+				EWO_HTML_One+= "<td>";
+					EWO_HTML_One+= EWO_Object_Two["Carrot"];
+				EWO_HTML_One+= "</td>";
+			EWO_HTML_One+= "</tr>";
+		EWO_HTML_One+= "</tbody>";
+	EWO_HTML_One+= "</table>";
+
 	document.body.innerHTML = EWO_HTML_One;
 }
